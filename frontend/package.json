@@ -67,7 +67,7 @@
   },
   "prettier": {
     "singleQuote": true,
-    "arrowParens": "always",
+    "arrowParens": "avoid",
     "bracketSpacing": true,
     "endOfLine": "lf",
     "htmlWhitespaceSensitivity": "css",
