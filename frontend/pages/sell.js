@@ -1,9 +1,9 @@
 import Page from "../components/Page"
 
 export default function SellPage() {
-  return <div>
-    <Page>
+  return (
+    <div>
       Hello from the sell page!
-    </Page>
-  </div>
+    </div>
+  )
 }
