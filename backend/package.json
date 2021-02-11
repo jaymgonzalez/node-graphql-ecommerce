@@ -2,17 +2,11 @@
   "name": "sick-fits-backend",
   "version": "2.0.0",
   "private": true,
-  "author": "Wes Bos",
+  "author": "Jay M Gonzalez",
   "license": "MIT",
   "scripts": {
     "dev": "keystone-next",
     "seed-data": "keystone-next --seed-data"
-  },
-  "eslintConfig": {
-    "extends": "wesbos/typescript.js",
-    "rules": {
-      "@typescript-eslint/no-unsafe-assignment": 0
-    }
   },
   "babel": {
     "presets": [
@@ -33,6 +27,25 @@
       "@babel/preset-react",
       "@babel/preset-typescript"
     ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "semi": false,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "vueIndentScriptAndStyle": false
   },
   "dependencies": {
     "@keystone-next/admin-ui": "^8.0.1",
@@ -71,5 +84,5 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "repository": "https://github.com/wesbos/advanced-react"
+  "repository": "https://github.com/liteljaime/node-graphql-ecommerce"
 }
